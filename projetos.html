@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Documento HTML5 em português do Brasil -->
+
+<head>
+  <meta charset="UTF-8"> <!-- Permite acentos e caracteres especiais -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsivo no celular -->
+  <title>Projetos</title> <!-- Nome que aparece na aba do navegador -->
+  <link rel="stylesheet" href="style.css"> <!-- Arquivo CSS externo -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> <!-- Biblioteca de ícones -->
+</head>
+
+<body>
+  <!-- CABEÇALHO -->
+  <header>
+    <img src="imagens/estrela.png" alt="estrela" width="60px"> <!-- Logo do site -->
+    <nav> <!-- Menu de navegação -->
+      <a href="index.html">Início</a>
+      <a href="sobre_mim.html">Sobre Mim</a>
+      <a href="formacoes.html">Formações</a>
+      <a href="projetos.html" class="active">Projetos</a> <!-- Página atual -->
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <!-- SEÇÃO DE PROJETOS -->
+  <section class="projetos">
+    <h1>✨ Meus Projetos ✨</h1>
+
+    <!-- Grid de projetos (organização em colunas/linhas) -->
+    <div class="projetos-grid">
+
+      <!-- PROJETO 1 -->
+      <div class="projeto-card"> <!-- Cartão de projeto -->
+        <div class="projeto-img"> <!-- Imagem do projeto -->
+          <img src="imagens/banco_dados.jpeg" alt="Banco de Dados MER">
+        </div>
+        <div class="projeto-info"> <!-- Texto do projeto -->
+          <h2>Banco de Dados - MER</h2>
+          <p>
+            Modelo Entidade-Relacionamento de um sistema de hotelaria, com tabelas de Hotel, Quarto, Funcionário,
+            Hóspede, Reserva e Pagamento.
+          </p>
+          <!-- Botão com ícone -->
+          <a href="#" class="btn">Ver Mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <!-- PROJETO 2 -->
+      <div class="projeto-card">
+        <div class="projeto-img">
+          <img src="imagens/logica_programacao.jpeg" alt="Menu de Funcionários">
+        </div>
+        <div class="projeto-info">
+          <h2>Lógica e Algoritmos</h2>
+          <p>
+            Projeto de lógica de programação com cardápio interativo no terminal, utilizando menus e validações para
+            pedidos.
+          </p>
+          <a href="#" class="btn">Ver Mais <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</body>
+
+</html>

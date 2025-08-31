@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR"> <!-- Documento em HTML5 no idioma português do Brasil -->
+
+<head>
+  <meta charset="UTF-8"> <!-- Permite caracteres acentuados -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade no celular -->
+  <title>Contato</title> <!-- Título que aparece na aba do navegador -->
+  <link rel="stylesheet" href="style.css"> <!-- Arquivo CSS externo -->
+</head>
+
+<body>
+  <!-- CABEÇALHO -->
+  <header>
+    <img src="imagens/estrela.png" alt="estrela" width="60px"> <!-- Logo do site -->
+    <nav> <!-- Menu de navegação -->
+      <a href="index.html">Início</a>
+      <a href="sobre_mim.html">Sobre Mim</a>
+      <a href="formacoes.html">Formações</a>
+      <a href="projetos.html">Projetos</a>
+      <a href="contato.html" class="active">Contato</a> <!-- Página atual marcada como ativa -->
+    </nav>
+  </header>
+
+  <!-- SEÇÃO DE CONTATO -->
+  <section class="contato">
+    <div class="contato-container">
+      <h1>Entre em Contato</h1>
+      <p>Preencha o formulário abaixo e retornarei o mais rápido possível 🚀</p>
+
+      <!-- FORMULÁRIO DE CONTATO -->
+      <form class="form-contato">
+        
+        <!-- Campo de Nome -->
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+
+        <!-- Campo de E-mail -->
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <!-- Campo de Mensagem -->
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" rows="5" required></textarea>
+        </div>
+
+        <!-- Botão de Envio -->
+        <button type="submit" class="btn">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
