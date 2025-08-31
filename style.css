@@ -672,4 +672,13 @@ nav a.active {
 
 nav a.active::after {
   width: 100%;
+
+}
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background: rgba(17, 17, 36, 0.8);
+  color: #ccc;
+  font-size: 14px;
+  margin-top: auto; /* empurra o footer para o final da página */
 }
